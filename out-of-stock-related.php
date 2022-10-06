@@ -4,7 +4,7 @@ Plugin Name:  WooCommerce plugin for related products
 Description:  Related products for woocommerce arrange by parent and subcategories only with stock
 Version:      1.0
 Author:       Rares Hodirnau
-Author URI:   https://github.com/rareshodirnau/Hide-out-of-stock-related-products-in-WooCommerce.git
+Author URI:   https://github.com/rareshodirnau/WooCommerce-plugin-for-related-products.git
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
