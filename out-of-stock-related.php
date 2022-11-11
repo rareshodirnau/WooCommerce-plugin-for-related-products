@@ -30,7 +30,7 @@ class OutofStock{
             $in_stock_product_ids = (array) wc_get_products( array(
                 'status'       => 'publish',
                 'stock_status' => 'instock',
-                'category'     => array(get_term($terms[$i-1]->term_id, 'product_cat')->name), 
+                'category'     => array(get_term($terms[$i-1]->term_id, 'product_cat')->slug), 
                 'exclude'      => array($product_id),
                 'return'       => 'ids',
             ));
